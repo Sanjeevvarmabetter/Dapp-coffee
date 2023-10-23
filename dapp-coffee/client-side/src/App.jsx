@@ -50,14 +50,15 @@ function App() {
 },[])
 
   return (
-  <>
-  <div classname="App">
-  Connected account  : {account}
-    <Buy> state = {state}</Buy>
-    {/* <Memos>state = {state}</Memos> */}
-  </div>
-
-  </>
+    <div>
+      <p style={{ marginTop: "10px", marginLeft: "5px"}}>
+      <small>Connected Account : {account}</small>
+      </p>
+      
+      <Buy state={state} />
+      <Memos state={state} />
+ 
+    </div>
   )
 }
 
