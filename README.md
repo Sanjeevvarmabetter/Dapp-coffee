@@ -1,6 +1,6 @@
 # Decentralized Coffee Ordering Web Application
 
-Welcome to the Decentralized Coffee Ordering Web Application! This project allows users to order coffee using Ethereum smart contracts and a React frontend.
+Welcome to the Decentralized Coffee Ordering Web Application! This project allows users to order coffee using Ethereum smart contracts and a React + vite frontend.
 
 
 ## Overview
